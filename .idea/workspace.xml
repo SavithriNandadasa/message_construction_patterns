@@ -113,43 +113,6 @@
               <item name="message_construction" type="b2602c69:ProjectViewProjectNode" />
               <item name="message_construction" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="message_construction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="message_construction" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="message_construction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="message_construction" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name=".ballerina" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="message_construction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="message_construction" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="phone_order_delivery_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="message_construction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="message_construction" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="phone_order_delivery_service" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="message_construction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="message_construction" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="phone_store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="message_construction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="message_construction" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="phone_store" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
