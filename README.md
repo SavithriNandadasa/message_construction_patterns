@@ -30,7 +30,7 @@ As this usecase based on message construction patterns , the scenario use Reques
 
 The below diagram illustrates this use case.
 
-## image
+![alt text](/images/message construction.png)
 
 In this example `Apache ActiveMQ` has been used as the JMS broker. Ballerina JMS Connector is used to connect Ballerina 
 and JMS Message Broker. With this JMS Connector, Ballerina can act as both JMS Message Consumer and JMS Message  
