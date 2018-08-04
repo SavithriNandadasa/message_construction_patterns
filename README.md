@@ -27,7 +27,8 @@ Once an order is placed, the phone_store_service will add it to a JMS queue name
 
 As this usecase based on message construction patterns , the scenario use Request-Reply with a pair of Point-to-Point Channels. The request is a Command Message whereas the reply is a Document Message that contains the function's return value or exception.The below diagram illustrates this use case.
 
-![alt text](message_construction_patterns/images/message construction_patterns.png)
+![alt text](/images/message construction_patterns.png)
+
 
 In this example `Apache ActiveMQ` has been used as the JMS broker. Ballerina JMS Connector is used to connect Ballerina 
 and JMS Message Broker. With this JMS Connector, Ballerina can act as both JMS Message Consumer and JMS Message  
