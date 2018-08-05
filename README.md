@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/SavithriNandadasa/message_construction_patterns.svg?branch=master)](https://travis-ci.org/SavithriNandadasa/message_construction_patterns)
+
 # Message Construction Patterns
 
 Message construction patterns describes the creation of message content that travel across the messaging system.Java Message 
@@ -76,7 +78,7 @@ message_construction_patterns
 ```
 ### Developing the service
 
-Let's get started with the implementation of the phone_store_service, which acts as the message Replier. 
+Let's get started with the implementation of the phone_store_service, which acts as the message Requestor. 
 Refer to the code attached below. Inline comments added for better understanding.
 
 ##### phone_store_service.bal
@@ -263,7 +265,7 @@ endpoint http:Client phone_order_delivery_serviceEP {
 };
 
 ```
-Now let's consider the implementation of order_delivery_service.bal which acts as the message Requestor.
+Now let's consider the implementation of order_delivery_service.bal which acts as the message Replier.
 
 #### order_delivery_service.bal
 
