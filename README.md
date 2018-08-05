@@ -25,9 +25,9 @@ To understand how you can use JMS queues for messaging, let's consider a real-wo
 
 Once an order is placed, the phone_store_service will add it to a JMS queue named "OrderQueue" if the order is valid. Hence, this phonestore service acts as the message requestor. And phone_order_delivery_service, which acts as the message replier   and gets the order details whenever the queue becomes populated and forward them to delivery queue using phone_order_delivery_service.
 
-As this usecase based on message construction patterns , the scenario use Request-Reply with a pair of Point-to-Point Channels. The request is a Command Message whereas the reply is a Document Message that contains the function's return value or exception.
+As this usecase based on message construction patterns , the scenario use Request-Reply with a pair of Point-to-Point Channels. The request is a Command Message whereas the reply is a Document Message that contains the function's return value or exception.The below diagram illustrates this use case.
 
-The below diagram illustrates this use case.
+![alt text](/images/message_construction_patterns.png)
 
 
 In this example `Apache ActiveMQ` has been used as the JMS broker. Ballerina JMS Connector is used to connect Ballerina 

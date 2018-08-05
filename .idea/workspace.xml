@@ -147,6 +147,23 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration default="true" type="BallerinaApplicationRunConfiguration" factoryName="Ballerina">
+      <output_file path="$PROJECT_DIR$" />
+      <module name="message_construction" />
+      <working_directory value="$PROJECT_DIR$" />
+      <myRunKind value="MAIN" />
+      <remoteDebuggingHost value="127.0.0.1" />
+      <remoteDebuggingPort value="5005" />
+      <kind value="MAIN" />
+    </configuration>
+    <configuration default="true" type="BallerinaRemoteConfiguration" factoryName="Ballerina Remote">
+      <output_file path="$PROJECT_DIR$" />
+      <module name="message_construction" />
+      <working_directory value="$PROJECT_DIR$" />
+      <myRunKind value="MAIN" />
+      <remoteDebuggingHost value="127.0.0.1" />
+      <remoteDebuggingPort value="5005" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -162,6 +179,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="message_construction" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
