@@ -13,35 +13,41 @@
 # limitations under the License.
 
 script:
-# Declare STRING variable
-- STRING="Downloading ballerina..."
+- BALLERINA_VERSION="${VERSION:-0.980.2-SNAPSHOT}"
+- echo -e "\033[36m${BALLERINA_VERSION}\033[m"
 
-# Declare variable for Ballerina version
-- BALLERINA_VERSION=0.980.0
-
-# Declare variable for distribution name
 - DISTRIBUTION_NAME=ballerina-platform-$BALLERINA_VERSION
+- echo -e "\033[36m${DISTRIBUTION_NAME}\033[m"
 
-# Print STRING variables
-- echo $DISTRIBUTION_NAME
+- DOWNLOAD_CHANNEL="${CHANNEL:-nightly}"
+- echo -e "\033[36m${DOWNLOAD_CHANNEL}\033[m"
 
-# Download Ballerina dist
-- wget https://product-dist.ballerina.io/downloads/$BALLERINA_VERSION/$DISTRIBUTION_NAME.zip
+- DOWNLOAD_LOCATION="${URL:-https://product-dist.ballerina.io}"
+- echo -e "\033[36m${DOWNLOAD_LOCATION}\033[m"
 
-# Unzip the zip file
-- unzip $DISTRIBUTION_NAME.zip
+- echo -e "\033[36m$DOWNLOAD_LOCATION/$DOWNLOAD_CHANNEL/$BALLERINA_VERSION/$DISTRIBUTION_NAME.zip\033[m"
+- wget $DOWNLOAD_LOCATION/$DOWNLOAD_CHANNEL/$BALLERINA_VERSION/$DISTRIBUTION_NAME.zip
 
-# Add Ballerina to the path variable
+- unzip -q $DISTRIBUTION_NAME.zip
+
 - export PATH=$PATH:$(pwd)/$DISTRIBUTION_NAME/bin
 
-# Print Ballerina version
 - ballerina version
 
-# Change the directory
-- cd guide/
+- ACTIVEMQ_VERSION="apache-activemq-5.15.4"
 
-# Initialize the Ballerina project
+- wget https://archive.apache.org/dist/activemq/5.15.4/$ACTIVEMQ_VERSION-bin.tar.gz
+
+- tar xzf $ACTIVEMQ_VERSION-bin.tar.gz
+
+- ./$ACTIVEMQ_VERSION/bin/activemq start
+
+- cp $ACTIVEMQ_VERSION/lib/activemq-client-5.15.4.jar $DISTRIBUTION_NAME/bre/lib
+- cp $ACTIVEMQ_VERSION/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar $DISTRIBUTION_NAME/bre/lib
+- cp $ACTIVEMQ_VERSION/lib/hawtbuf-1.11.jar $DISTRIBUTION_NAME/bre/lib
+
+- cd guide
+
 - ballerina init
 
-# Run tests
 - ballerina test
