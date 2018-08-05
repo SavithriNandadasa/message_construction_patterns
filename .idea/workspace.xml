@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e903c0d5-299c-47b4-9afb-69c522978aa9" name="Default" comment="" />
+    <list default="true" id="e903c0d5-299c-47b4-9afb-69c522978aa9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/guide/phone_store/phone_store_service.bal" beforeDir="false" afterPath="$PROJECT_DIR$/guide/phone_store/phone_store_service.bal" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="phone_store_service.bal" pinned="false" current-in-tab="false">
+      <file leaf-file-name="phone_store_service.bal" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/guide/phone_store/phone_store_service.bal">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="259" column="60" selection-start-line="259" selection-start-column="48" selection-end-line="259" selection-end-column="60" />
+            <state relative-caret-position="396">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -33,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phone_order_delivery_test.bal" pinned="false" current-in-tab="true">
+      <file leaf-file-name="phone_order_delivery_test.bal" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guide/phone_order_delivery_service/test/phone_order_delivery_test.bal">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="814">
               <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
             </state>
           </provider>
@@ -59,6 +61,7 @@
       <find>phoneOrder</find>
       <find>jmsSession2</find>
       <find>orderedPhoneName</find>
+      <find>jms</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,9 +84,9 @@
         <option value="$PROJECT_DIR$/guide/test/phone_order_delivery_service_test.bal" />
         <option value="$PROJECT_DIR$/guide/test/phone_store_service_test.bal" />
         <option value="$PROJECT_DIR$/guide/phone_store/test/phone_store_service_test.bal" />
-        <option value="$PROJECT_DIR$/guide/phone_store/phone_store_service.bal" />
         <option value="$PROJECT_DIR$/guide/phone_order_delivery_service/phone_order_delivery_service.bal" />
         <option value="$PROJECT_DIR$/guide/phone_order_delivery_service/test/phone_order_delivery_test.bal" />
+        <option value="$PROJECT_DIR$/guide/phone_store/phone_store_service.bal" />
       </list>
     </option>
   </component>
@@ -124,6 +127,9 @@
     <property name="Empty file" value="Ballerina Service" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/savithri/Downloads/ballerina/new/message_construction/guide/phone_store/phone_store_service.bal" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/content-based-routing-1" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -195,6 +201,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="94" y="-5" width="2466" height="1445" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -362,13 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guide/phone_store/phone_store_service.bal">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="259" column="60" selection-start-line="259" selection-start-column="48" selection-end-line="259" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guide/phone_order_delivery_service/phone_order_delivery_service.bal">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -378,8 +378,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/guide/phone_order_delivery_service/test/phone_order_delivery_test.bal">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="814">
           <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/phone_store/phone_store_service.bal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>

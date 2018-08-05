@@ -2,6 +2,7 @@ import ballerina/log;
 import ballerina/http;
 import ballerina/jms;
 
+
 //Deploying on kubernetes
 
 //import ballerinax/kubernetes;
@@ -123,6 +124,9 @@ service<http:Service> phone_store_service bind listener {
         produces: ["application/json"] }
 
     placeOrder(endpoint caller, http:Request request) {
+
+
+
         backendreq= untaint request;
         http:Response response;
         phoneOrder newOrder;
