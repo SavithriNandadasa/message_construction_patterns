@@ -21,7 +21,7 @@ The following are the sections available in this guide.
 - [Observability](#observability)
 
 ## What you’ll build
-To understand how you can use JMS queues for messaging, let's consider a real-world use case of a phone store service using which a user can order phones for home delivery. This scenarion contains two services.
+To understand how you can use JMS queues for messaging, let's consider a real-world use case of a phone store service using which a user can order phones for home delivery. This scenario contains two services.
 - phone_store_service : A Message Endpoint that sends a request message and waits to receive a reply message as a response.
 - phone_order_delivery_service : A Message Endpoint that waits to receive the request message; when it does, it responds by sending the reply message.
 
